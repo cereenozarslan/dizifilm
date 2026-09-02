@@ -39,3 +39,13 @@ yarn-error.log*
 # typescript
 *.tsbuildinfo
 next-env.d.ts
+
+# --- Guvenlik eki (Claude) ---
+.env
+.env.*
+!.env.example
+*.key
+*.crx
+*.db
+*.sqlite3
+*.log
